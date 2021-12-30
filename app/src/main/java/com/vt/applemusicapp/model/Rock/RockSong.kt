@@ -1,4 +1,4 @@
-package com.vt.applemusicapp.model.rock
+package com.vt.applemusicapp.model.Rock
 
 
 import com.google.gson.annotations.SerializedName

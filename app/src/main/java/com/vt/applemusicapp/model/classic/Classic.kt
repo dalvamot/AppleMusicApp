@@ -1,11 +1,11 @@
-package com.vt.applemusicapp.model.pop
+package com.vt.applemusicapp.model.classic
 
 
 import com.google.gson.annotations.SerializedName
 
-data class PopModel(
+data class Classic(
     @SerializedName("resultCount")
     val resultCount: Int,
     @SerializedName("results")
-    val popSongs: List<PopSong>
+    val classicSongs: List<ClassicSong>
 )

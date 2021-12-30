@@ -42,22 +42,19 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
-    //retrofit library to do network calls
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    // to log the request and response
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
-    // okhttp library to add interceptors and header to the response or request
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.2'
-    //this is retrofit adapter
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
-    //rx java to perform the background operations
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
     implementation 'io.reactivex.rxjava2:rxjava:2.2.11'
-    //gson parsing library
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
 
     implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
 
     testImplementation 'junit:junit:4.+'
