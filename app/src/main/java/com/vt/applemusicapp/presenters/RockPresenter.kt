@@ -9,6 +9,8 @@ class RockPresenter(
     private val rockViewContract: IRockView
 ): IRockPresenter {
     override fun getRockSongsFromServer() {
+
+        // loved the use of the Kotlin scope functions
         let {
             Retrofit.getNetworkApi()
                 .getRockSongs()

@@ -7,6 +7,11 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
+/**
+ * Lets use Dagger dependency injection or Hilt or koin
+ *
+ * This is a good approach but DI is the preferred design
+ */
 object Retrofit {
 
     private val okHttpClient by lazy {
